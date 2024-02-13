@@ -8,7 +8,7 @@ from gtts import gTTS
 from IPython.display import Audio, display
 import openai
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '--api -- key'                    /Please obtain your OpenAI API key and insert it here. Be mindful of your usage as OpenAI provides a limited number of free tokens for GPT-3 responses.
 def generate_response(prompt):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
